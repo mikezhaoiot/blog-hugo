@@ -1,2 +1,3 @@
-# LiveSpeaker
-Open source smart speaker OS
+# 使用说明
+1. hugo server 
+2. hugo

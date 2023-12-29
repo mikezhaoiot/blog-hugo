@@ -34,7 +34,20 @@ draft: false
 
 # blog主题
 
-- 针对event主题主要是字体和颜色的修改，参考[hugo-even 主题样式](https://blog.herbert.top/2020/07/09/how_change_hugo_even_font/)
+- 针对event主题主要是字体和颜色的修改，参考[hugo-even 主题样式](https://blog.herbert.top/2020/07/09/how_change_hugo_even_font/)，相关改动可以参考 [字体和颜色修改提交](https://github.com/olOwOlo/hugo-theme-even/compare/master...mikezhaoiot:hugo-theme-even:master)
+- 如果even主题有更新，[mike hugo even](https://github.com/olOwOlo/hugo-theme-even/compare/master...mikezhaoiot:hugo-theme-even:master)
+
+# 文章发布
+
+- 在blog目录，使用`hugo new post/some-content.md`创建markdown文件
+- 发布：在blog根目录执行`hugo`命令或者`hugo -t even`命令，自动根据md文件生成文章的静态页面，静态页面发布在根目录的public文件夹下面
+- 启动Hugo server，查看网站最新效果，在blog根目录执行如下命令: hugo server
+
+# 自动部署
+
+- [GitHub Action实现Hugo博客在GitHub Pages自动部署](https://lucumt.info/post/hugo/using-github-action-to-auto-build-deploy/)
+
+- [ ] Github Action 自动部署存在问题，没办法提交public，导致无法及时更新到github pages
 
 # 参考文章
 
