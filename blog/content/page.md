@@ -1,7 +1,7 @@
 ---
-title: "{{ replace .TranslationBaseName "-" " " | title }}"
-date: {{ .Date }}
-lastmod: {{ .Date }}
+title: "Page"
+date: 2023-12-29T14:19:56+08:00
+lastmod: 2023-12-29T14:19:56+08:00
 draft: true
 keywords: []
 description: ""
@@ -11,8 +11,8 @@ author: ""
 
 # You can also close(false) or open(true) something for this content.
 # P.S. comment can only be closed
-comment: false
-toc: false
+comment: true
+toc: true
 autoCollapseToc: false
 postMetaInFooter: false
 hiddenFromHomePage: false
