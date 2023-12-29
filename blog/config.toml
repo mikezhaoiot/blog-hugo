@@ -21,7 +21,7 @@ googleAnalytics = ""      # UA-XXXXXXXX-X
 copyright = ""            # default: author.name ↓        # 默认为下面配置的author.name ↓
 
 [author]                  # essential                     # 必需
-  name = "olOwOlo"
+  name = "mike"
 
 [sitemap]                 # essential                     # 必需
   changefreq = "weekly"
@@ -182,21 +182,21 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
     alipay = "/path/to/your/alipay-qr-code.png"           # 支付宝二维码
 
   [params.social]                                         # 社交链接
-    a-email = "mailto:your@email.com"
-    b-stack-overflow = "http://localhost:1313"
-    c-twitter = "http://localhost:1313"
-    d-facebook = "http://localhost:1313"
-    e-linkedin = "http://localhost:1313"
-    f-google = "http://localhost:1313"
-    g-github = "http://localhost:1313"
-    h-weibo = "http://localhost:1313"
-    i-zhihu = "http://localhost:1313"
-    j-douban = "http://localhost:1313"
-    k-pocket = "http://localhost:1313"
-    l-tumblr = "http://localhost:1313"
-    m-instagram = "http://localhost:1313"
-    n-gitlab = "http://localhost:1313"
-    o-bilibili = "http://localhost:1313"
+    a-email = "mailto:291732699@qq.com"
+#    b-stack-overflow = "http://localhost:1313"
+#    c-twitter = "http://localhost:1313"
+#    d-facebook = "http://localhost:1313"
+#    e-linkedin = "http://localhost:1313"
+#    f-google = "http://localhost:1313"
+    g-github = "https://github.com/mikezhaoiot"
+ #   h-weibo = "http://localhost:1313"
+ #   i-zhihu = "https://www.zhihu.com/people/zhao-52-75"
+ #   j-douban = "http://localhost:1313"
+ #   k-pocket = "http://localhost:1313"
+ #   l-tumblr = "http://localhost:1313"
+ #   m-instagram = "http://localhost:1313"
+#    n-gitlab = "http://localhost:1313"
+    o-bilibili = "https://space.bilibili.com/471579140?spm_id_from=333.1007.0.0"
 
 # See https://gohugo.io/about/hugo-and-gdpr/
 [privacy]
