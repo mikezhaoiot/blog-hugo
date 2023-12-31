@@ -51,6 +51,8 @@ draft: false
 
 - 自动化部署问题于2023.12.30晚已经解决，参考[自动部署](https://zhuanlan.zhihu.com/p/568764664),核心原因是github_token不支持外部库，我们采用的两个仓库的方案不能使用github_token，另外external_repository 拼写也出现错误。
 
+- theme/even 如果单独的仓库更新会出错，该问题需要待解决。
+
 
 # 参考文章
 
