@@ -26,8 +26,8 @@ jobs:
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.ACTION_ACCESS_TOKEN }}
-          external_respository: mikezhaoiot/mikezhaoiot.github.io
+          personal_token: ${{ secrets.ACTION_ACCESS_TOKEN }}
+          external_repository: mikezhaoiot/mikezhaoiot.github.io
           publish_branch: main
           publish_dir: ./public
           commit_message: ${{ github.event.head_commit.message }}
