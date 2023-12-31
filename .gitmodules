@@ -4,9 +4,6 @@
 [submodule "blog/themes/clarity"]
 	path = blog/themes/clarity
 	url = https://github.com/chipzoller/hugo-clarity.git
-[submodule "blog/themes/even"]
-	path = blog/themes/even
-	url = https://github.com/olOwOlo/hugo-theme-even.git
 [submodule "blog/themes/jane"]
 	path = blog/themes/jane
 	url = https://github.com/xianmin/hugo-theme-jane.git
