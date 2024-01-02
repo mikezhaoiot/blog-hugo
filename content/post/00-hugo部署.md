@@ -1,5 +1,5 @@
 ---
-title: "hugo 部署过程"
+title: "博客hugo框架部署过程"
 date: 2023-12-29T11:19:32+08:00
 draft: false
 ---
@@ -49,9 +49,10 @@ draft: false
 
 - [ ] Github Action 自动部署存在问题，没办法提交public，导致无法及时更新到github pages
 
-- 自动化部署问题于2023.12.30晚已经解决，参考[自动部署](https://zhuanlan.zhihu.com/p/568764664),核心原因是github_token不支持外部库，我们采用的两个仓库的方案不能使用github_token，另外external_repository 拼写也出现错误。
+# 更新记录 
 
-- theme/even 如果单独的仓库更新会出错，该问题需要待解决。
+- 20240102 :  blog-hugo 更改为私人仓库
+
 
 
 # 参考文章
