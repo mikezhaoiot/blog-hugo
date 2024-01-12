@@ -49,13 +49,23 @@ draft: false
 
 - [ ] Github Action 自动部署存在问题，没办法提交public，导致无法及时更新到github pages
 
+# 写文章格式 
+
+- markdown 默认的图片插入方式，即 `![pic](pic.png)` 时，图片的宽度默认为编辑器的宽度，而且不能调节，这样当我们插入一些比较小的图片时也会占据很大的空间，非常影响文章的阅读体验。 最终的解决方案是
+
+```html
+<center><img src="pic.png" width="50%" /></center>
+```
+
+这样就可以实现图片居中显示了。参考文章[Hugo 博客插入图片的方法](https://www.yuweihung.com/posts/2021/hugo-blog-picture/)
+
 # 更新记录 
 
 - 20240102 :  blog-hugo 更改为私人仓库
-
-
+- 20240112 :  增加PicX图片图床服务 
 
 # 参考文章
 
 - [Hugo搭建个人博客](https://qoant.com/2019/04/blog-with-hugo/)
 - [ GitHub Pages + Hugo 搭建个人博客](https://cuttontail.blog/blog/create-a-wesite-using-github-pages-and-hugo/)
+- [Hugo 博客插入图片的方法](https://www.yuweihung.com/posts/2021/hugo-blog-picture/)
