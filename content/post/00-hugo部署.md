@@ -59,6 +59,15 @@ draft: false
 
 这样就可以实现图片居中显示了。参考文章[Hugo 博客插入图片的方法](https://www.yuweihung.com/posts/2021/hugo-blog-picture/)
 
+
+
+# 进一步验证的工作
+
+改善Obsidian + hugo 的写作体验。 参考
+
+- [从Hexo到Hugo](https://tanjoe.github.io/posts/%E4%BB%8Ehexo%E5%88%B0hugo/) 参考主要文章
+- [如何从Obsidian部署Hugo](https://blog.ibrowse.top/posts/how-to-deploy-hugo-from-obsidian/)  思路挺好的，但是具体步骤并不明确。
+
 # 更新记录 
 
 - 20240102 :  blog-hugo 更改为私人仓库
