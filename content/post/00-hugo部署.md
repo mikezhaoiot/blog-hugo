@@ -73,6 +73,10 @@ draft: false
 - 20240102 :  blog-hugo 更改为私人仓库
 - 20240112 :  增加PicX图片图床服务 
 
+# 问题修复 
+
+- 2024/3/11 修复密码过期导致部署失败问题。记录于飞书文档 https://ie87tg6sow.feishu.cn/docx/SCdFdeXFsoBEP9xRakMcpNVInod?from=from_copylink
+
 # 参考文章
 
 - [Hugo搭建个人博客](https://qoant.com/2019/04/blog-with-hugo/)
